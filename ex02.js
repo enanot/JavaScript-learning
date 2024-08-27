@@ -1,6 +1,9 @@
 // escribe tu respuesta acá
 function calcularImpuestos(edad, dinero){
-    
+    if((edad >= 18)&&(dinero >= 1000)){
+        return ((dinero * 0.4 ))
+    }
+    return ( 0 )
 }
 // código de prueba
 console.log(calcularImpuestos(18, 1000)) // 400
